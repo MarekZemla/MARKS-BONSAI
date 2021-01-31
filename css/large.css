@@ -1,0 +1,89 @@
+body section {
+    margin: 120px 0;
+}
+
+/*NAVIGATION*/
+
+.nav-desktop li a {
+    font-size: 20px;
+}
+
+/*HEADER*/
+
+.header-img {
+    background-image: url('../img/header3.jpg');
+    background-position: left;
+}
+
+/*MAIN*/
+
+.first-list {
+    background-image: url('../img/Main6.jpg');
+}
+
+.second-list {
+    background-image: url('../img/main9.jpg');
+}
+
+.third-list {
+    background-image: url('../img/main12.jpg');
+}
+
+.fourth-list {
+    background-image: url('../img/Main6.jpg');
+}
+
+
+/*RWD settings*/
+
+@media (min-width:1024px) {
+    body footer .underline h2 {
+        font-size: 30px;
+    }
+
+    div.contact p {
+        font-size: 20px;
+    }
+
+    body footer p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1200px) {
+    .header-text h1 {
+        margin-top: 3%;
+        margin-left: 650px;
+        font-size: 60px;
+    }
+
+    .header-text p {
+        margin-left: 650px;
+        font-size: 22px;
+    }
+}
+
+@media (min-width:1400px) {
+    .header-text h1 {
+        margin-top: 1%;
+        margin-left: 800px;
+    }
+
+    .header-text p {
+        margin-left: 800px;
+        font-size: 24px;
+    }
+}
+
+@media (min-width:1600px) {
+    .header-text h1 {
+        margin-top: 1%;
+        margin-left: 1000px;
+        font-size: 70px;
+    }
+
+    .header-text p {
+        margin-left: 1000px;
+        font-size: 26px;
+    }
+}
