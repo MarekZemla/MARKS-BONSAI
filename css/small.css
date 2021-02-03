@@ -1,0 +1,115 @@
+/*NAVIGATION*/
+.nav-desktop {
+  display: block;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+.nav-desktop li a {
+  font-size: 16px;
+}
+
+/*HEADER*/
+.header-img {
+  background-image: url("../img/header1.jpg");
+}
+
+/*MAIN*/
+.first-list {
+  background-image: url("../img/Main4.jpg");
+}
+
+.second-list {
+  background-image: url("../img/main7.jpg");
+}
+
+.third-list {
+  background-image: url("../img/main10.jpg");
+}
+
+.fourth-list {
+  background-image: url("../img/Main4.jpg");
+}
+
+/*RWD settings*/
+@media (min-width: 280px) {
+  body footer .underline h2 {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+  .contact p {
+    margin-top: 10px;
+    display: inline-block;
+    width: 30%;
+    font-size: 10px;
+    line-height: 16px;
+  }
+  footer p {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 360px) {
+  body footer .underline h2 {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .contact p {
+    margin-top: 10px;
+    display: inline-block;
+    width: 30%;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 400px) {
+  .header-text h1,
+  .header-text p {
+    margin-left: 120px;
+  }
+}
+
+@media (min-width: 411px) {
+  body footer .underline h2 {
+    font-size: 20px;
+  }
+  div.contact p {
+    font-size: 13px;
+  }
+  body footer p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 510px) {
+  .header-text h1,
+  .header-text p {
+    margin-left: 250px;
+  }
+}
+
+@media (min-width: 600px) {
+  .header-text h1,
+  .header-text p {
+    margin-left: 320px;
+  }
+}
+
+@media (min-width: 700px) {
+  .header-text h1 {
+    margin-top: 3%;
+    margin-left: 320px;
+    font-size: 45px;
+  }
+  .header-text p {
+    margin-left: 320px;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=small.css.map */
